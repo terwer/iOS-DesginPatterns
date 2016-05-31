@@ -23,18 +23,35 @@
  @end
  */
 
+/*
+ @implementation Singleton
+ 
+ static Singleton *sharedSingleton = nil;
+ 
+ + (Singleton *) sharedInstance{
+ if (sharedSingleton == nil) {
+ 　static dispatch_once_t onceToken;
+ 　dispatch_once(&onceToken, ^{
+ sharedSingleton = [[Singleton alloc] init];
+ });
+ }
+ return sharedSingleton;
+ }
+ @end
+ */
+
 @implementation Singleton
 
 static id sharedSingleton = nil;
 
 + (id)allocWithZone:(struct _NSZone *)zone{
-    　　if (sharedSingleton == nil) {
-        　　　　static dispatch_once_t onceToken;
-        　　　　dispatch_once(&onceToken, ^{
-            　　　　sharedSingleton = [super allocWithZone:zone];
-            　　　　});
-        　　}
-    　　return sharedSingleton;
+    if (sharedSingleton == nil) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            sharedSingleton = [super allocWithZone:zone];
+        });
+    }
+    return sharedSingleton;
 }
 
 - (id)init{
@@ -46,14 +63,14 @@ static id sharedSingleton = nil;
 }
 
 + (instancetype)sharedInstance{
-    　　 return [[self alloc] init];
+    return [[self alloc] init];
 }
 
 + (id)copyWithZone:(struct _NSZone *)zone{
-    　　return sharedSingleton;
+    return sharedSingleton;
 }
 
 + (id)mutableCopyWithZone:(struct _NSZone *)zone{
-    　　return sharedSingleton;
+    return sharedSingleton;
 }
 @end
