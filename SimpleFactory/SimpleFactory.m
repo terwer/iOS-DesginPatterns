@@ -14,11 +14,15 @@
     BankCard  *bankCard;
     switch (type) {
         case BankCardICBC:
+        {
             bankCard=[[ICBCBankCard alloc] init];
             break;
+        }
         case BankCardABC:
+        {
             bankCard=[[ABCBankCard alloc] init];
             break;
+        }
     }
     return bankCard;
 }
