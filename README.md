@@ -19,6 +19,8 @@
 
 简单工厂模式是属于创建型模式，但不属于23种GOF设计模式之一。简单工厂模式是由一个工厂对象决定创建出哪一种产品类的实例。简单工厂模式是工厂模式家族中最简单实用的模式，可以理解为是不同工厂模式的一个特殊实现。
 
+>**说明：严格来说，简单工厂模式不是GOF总结出来的23种设计模式之一。**
+
 ### [单例模式（Singleton）](https://github.com/terwer/DesginPattern/tree/master/Singleton)
 
 ![](http://my.csdn.net/uploads/201204/02/1333348032_1491.jpg)
@@ -31,7 +33,9 @@
 
 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
 
-### 工厂方法模式（Factory Method）
+### [工厂方法模式（Factory Method）](https://github.com/terwer/DesginPattern/tree/master/FactoryMethod)
+
+![](http://my.csdn.net/uploads/201204/02/1333347948_2280.jpg)
 
 定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类。
 
@@ -42,8 +46,6 @@
 ### 建造者模式（Builder）
 
 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
-
->**说明：严格来说，简单工厂模式不是GoF总结出来的23种设计模式之一。**
 
 ## 结构型模式
 
@@ -159,7 +161,11 @@
 
 [IOS设计模式浅析之原型模式(Prototype)](http://www.cnblogs.com/eagle927183/p/3462439.html)
 
-[iOS原型模式](http://www.jianshu.com/p/5de56efccdea)
+[iOS 原型模式](http://www.jianshu.com/p/5de56efccdea)
+
+[iOS设计模式(03):工厂方法](http://www.cocoachina.com/ios/20130516/6219.html)
+
+
 
 
 
