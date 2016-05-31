@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F959F131CFD58B200618248"
-               BuildableName = "StaticFactoryMethod"
-               BlueprintName = "StaticFactoryMethod"
+               BlueprintIdentifier = "9F959F2A1CFD5AF400618248"
+               BuildableName = "SimpleFactory"
+               BlueprintName = "SimpleFactory"
                ReferencedContainer = "container:DesginPattern.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F959EBD1CFD3D9500618248"
-               BuildableName = "StaticFactoryMethodTests.xctest"
-               BlueprintName = "StaticFactoryMethodTests"
-               ReferencedContainer = "container:DesginPattern.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F959EC81CFD3D9500618248"
-               BuildableName = "StaticFactoryMethodUITests.xctest"
-               BlueprintName = "StaticFactoryMethodUITests"
-               ReferencedContainer = "container:DesginPattern.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F959F131CFD58B200618248"
-            BuildableName = "StaticFactoryMethod"
-            BlueprintName = "StaticFactoryMethod"
+            BlueprintIdentifier = "9F959F2A1CFD5AF400618248"
+            BuildableName = "SimpleFactory"
+            BlueprintName = "SimpleFactory"
             ReferencedContainer = "container:DesginPattern.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F959F131CFD58B200618248"
-            BuildableName = "StaticFactoryMethod"
-            BlueprintName = "StaticFactoryMethod"
+            BlueprintIdentifier = "9F959F2A1CFD5AF400618248"
+            BuildableName = "SimpleFactory"
+            BlueprintName = "SimpleFactory"
             ReferencedContainer = "container:DesginPattern.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F959F131CFD58B200618248"
-            BuildableName = "StaticFactoryMethod"
-            BlueprintName = "StaticFactoryMethod"
+            BlueprintIdentifier = "9F959F2A1CFD5AF400618248"
+            BuildableName = "SimpleFactory"
+            BlueprintName = "SimpleFactory"
             ReferencedContainer = "container:DesginPattern.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
