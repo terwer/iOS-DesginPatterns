@@ -12,10 +12,12 @@
 		9F959F3B1CFD5B3E00618248 /* ICBCBankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F341CFD5B3E00618248 /* ICBCBankCard.m */; };
 		9F959F3C1CFD5B3E00618248 /* BankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F361CFD5B3E00618248 /* BankCard.m */; };
 		9F959F3D1CFD5B3E00618248 /* ABCBankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F381CFD5B3E00618248 /* ABCBankCard.m */; };
+		9F959F5C1CFD7D2B00618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F5B1CFD7D2B00618248 /* main.m */; };
+		9F959F621CFD7D3B00618248 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F611CFD7D3B00618248 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9F959F121CFD58B200618248 /* CopyFiles */ = {
+		9F959F291CFD5AF400618248 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,7 +26,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		9F959F291CFD5AF400618248 /* CopyFiles */ = {
+		9F959F571CFD7D2B00618248 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -37,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		9F959EA11CFD399C00618248 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9F959F141CFD58B200618248 /* StaticFactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StaticFactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F959F2B1CFD5AF400618248 /* SimpleFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F959F2D1CFD5AF400618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F959F321CFD5B3E00618248 /* SimpleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactory.m; sourceTree = "<group>"; };
@@ -48,17 +49,21 @@
 		9F959F371CFD5B3E00618248 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
 		9F959F381CFD5B3E00618248 /* ABCBankCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCBankCard.m; sourceTree = "<group>"; };
 		9F959F391CFD5B3E00618248 /* ABCBankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCBankCard.h; sourceTree = "<group>"; };
+		9F959F591CFD7D2B00618248 /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F959F5B1CFD7D2B00618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F959F601CFD7D3B00618248 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		9F959F611CFD7D3B00618248 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F959F111CFD58B200618248 /* Frameworks */ = {
+		9F959F281CFD5AF400618248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F959F281CFD5AF400618248 /* Frameworks */ = {
+		9F959F561CFD7D2B00618248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,6 +78,7 @@
 			children = (
 				9F959F2C1CFD5AF400618248 /* SimpleFactory */,
 				9F959EA11CFD399C00618248 /* README.md */,
+				9F959F5A1CFD7D2B00618248 /* Singleton */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,8 +86,8 @@
 		9F959E981CFD36E300618248 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F959F141CFD58B200618248 /* StaticFactoryMethod */,
 				9F959F2B1CFD5AF400618248 /* SimpleFactory */,
+				9F959F591CFD7D2B00618248 /* Singleton */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,26 +108,19 @@
 			path = SimpleFactory;
 			sourceTree = "<group>";
 		};
+		9F959F5A1CFD7D2B00618248 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				9F959F601CFD7D3B00618248 /* Singleton.h */,
+				9F959F611CFD7D3B00618248 /* Singleton.m */,
+				9F959F5B1CFD7D2B00618248 /* main.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F959F131CFD58B200618248 /* StaticFactoryMethod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F959F181CFD58B200618248 /* Build configuration list for PBXNativeTarget "StaticFactoryMethod" */;
-			buildPhases = (
-				9F959F101CFD58B200618248 /* Sources */,
-				9F959F111CFD58B200618248 /* Frameworks */,
-				9F959F121CFD58B200618248 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StaticFactoryMethod;
-			productName = StaticFactoryMethod;
-			productReference = 9F959F141CFD58B200618248 /* StaticFactoryMethod */;
-			productType = "com.apple.product-type.tool";
-		};
 		9F959F2A1CFD5AF400618248 /* SimpleFactory */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F959F2F1CFD5AF400618248 /* Build configuration list for PBXNativeTarget "SimpleFactory" */;
@@ -139,6 +138,23 @@
 			productReference = 9F959F2B1CFD5AF400618248 /* SimpleFactory */;
 			productType = "com.apple.product-type.tool";
 		};
+		9F959F581CFD7D2B00618248 /* Singleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F959F5D1CFD7D2B00618248 /* Build configuration list for PBXNativeTarget "Singleton" */;
+			buildPhases = (
+				9F959F551CFD7D2B00618248 /* Sources */,
+				9F959F561CFD7D2B00618248 /* Frameworks */,
+				9F959F571CFD7D2B00618248 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Singleton;
+			productName = Singleton;
+			productReference = 9F959F591CFD7D2B00618248 /* Singleton */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,10 +164,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Terwer Green";
 				TargetAttributes = {
-					9F959F131CFD58B200618248 = {
+					9F959F2A1CFD5AF400618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					9F959F2A1CFD5AF400618248 = {
+					9F959F581CFD7D2B00618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -169,20 +185,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F959F131CFD58B200618248 /* StaticFactoryMethod */,
 				9F959F2A1CFD5AF400618248 /* SimpleFactory */,
+				9F959F581CFD7D2B00618248 /* Singleton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F959F101CFD58B200618248 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F959F271CFD5AF400618248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +201,15 @@
 				9F959F3D1CFD5B3E00618248 /* ABCBankCard.m in Sources */,
 				9F959F2E1CFD5AF400618248 /* main.m in Sources */,
 				9F959F3C1CFD5B3E00618248 /* BankCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F959F551CFD7D2B00618248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F959F5C1CFD7D2B00618248 /* main.m in Sources */,
+				9F959F621CFD7D3B00618248 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,20 +297,6 @@
 			};
 			name = Release;
 		};
-		9F959F191CFD58B200618248 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		9F959F1A1CFD58B200618248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		9F959F301CFD5AF400618248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -301,6 +305,20 @@
 			name = Debug;
 		};
 		9F959F311CFD5AF400618248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F959F5E1CFD7D2B00618248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F959F5F1CFD7D2B00618248 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,19 +337,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F959F181CFD58B200618248 /* Build configuration list for PBXNativeTarget "StaticFactoryMethod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F959F191CFD58B200618248 /* Debug */,
-				9F959F1A1CFD58B200618248 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		9F959F2F1CFD5AF400618248 /* Build configuration list for PBXNativeTarget "SimpleFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F959F301CFD5AF400618248 /* Debug */,
 				9F959F311CFD5AF400618248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F959F5D1CFD7D2B00618248 /* Build configuration list for PBXNativeTarget "Singleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F959F5E1CFD7D2B00618248 /* Debug */,
+				9F959F5F1CFD7D2B00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
