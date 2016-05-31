@@ -24,6 +24,13 @@
 		9F959F901CFD8BC300618248 /* CircleShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F8F1CFD8BC300618248 /* CircleShapeFactory.m */; };
 		9F959F931CFD8BDA00618248 /* SquareShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F921CFD8BDA00618248 /* SquareShapeFactory.m */; };
 		9F959F961CFD8BF000618248 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F951CFD8BF000618248 /* Client.m */; };
+		9F959F9E1CFD980E00618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F9D1CFD980E00618248 /* main.m */; };
+		9F959FB11CFD98BC00618248 /* OWCPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FA21CFD98BC00618248 /* OWCPie.m */; };
+		9F959FB21CFD98BC00618248 /* OWCLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FA41CFD98BC00618248 /* OWCLine.m */; };
+		9F959FB31CFD98BC00618248 /* OWCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FA61CFD98BC00618248 /* OWCFactory.m */; };
+		9F959FB41CFD98BC00618248 /* HTML5Pie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FA81CFD98BC00618248 /* HTML5Pie.m */; };
+		9F959FB51CFD98BC00618248 /* HTML5Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FAA1CFD98BC00618248 /* HTML5Line.m */; };
+		9F959FB61CFD98BC00618248 /* HTML5Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FAC1CFD98BC00618248 /* HTML5Factory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +62,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9F959F731CFD888400618248 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9F959F991CFD980D00618248 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -101,6 +117,23 @@
 		9F959F921CFD8BDA00618248 /* SquareShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SquareShapeFactory.m; path = Creator/SquareShapeFactory.m; sourceTree = "<group>"; };
 		9F959F941CFD8BF000618248 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Client/Client.h; sourceTree = "<group>"; };
 		9F959F951CFD8BF000618248 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Client/Client.m; sourceTree = "<group>"; };
+		9F959F9B1CFD980D00618248 /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F959F9D1CFD980E00618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F959FA21CFD98BC00618248 /* OWCPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWCPie.m; sourceTree = "<group>"; };
+		9F959FA31CFD98BC00618248 /* OWCPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWCPie.h; sourceTree = "<group>"; };
+		9F959FA41CFD98BC00618248 /* OWCLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWCLine.m; sourceTree = "<group>"; };
+		9F959FA51CFD98BC00618248 /* OWCLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWCLine.h; sourceTree = "<group>"; };
+		9F959FA61CFD98BC00618248 /* OWCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWCFactory.m; sourceTree = "<group>"; };
+		9F959FA71CFD98BC00618248 /* OWCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWCFactory.h; sourceTree = "<group>"; };
+		9F959FA81CFD98BC00618248 /* HTML5Pie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML5Pie.m; sourceTree = "<group>"; };
+		9F959FA91CFD98BC00618248 /* HTML5Pie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5Pie.h; sourceTree = "<group>"; };
+		9F959FAA1CFD98BC00618248 /* HTML5Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML5Line.m; sourceTree = "<group>"; };
+		9F959FAB1CFD98BC00618248 /* HTML5Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5Line.h; sourceTree = "<group>"; };
+		9F959FAC1CFD98BC00618248 /* HTML5Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML5Factory.m; sourceTree = "<group>"; };
+		9F959FAD1CFD98BC00618248 /* HTML5Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5Factory.h; sourceTree = "<group>"; };
+		9F959FAE1CFD98BC00618248 /* AbstractPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPie.h; sourceTree = "<group>"; };
+		9F959FAF1CFD98BC00618248 /* AbstractLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractLine.h; sourceTree = "<group>"; };
+		9F959FB01CFD98BC00618248 /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +165,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F959F981CFD980D00618248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +182,7 @@
 				9F959F5A1CFD7D2B00618248 /* Singleton */,
 				9F959F681CFD811D00618248 /* Prototype */,
 				9F959F761CFD888400618248 /* FactoryMethod */,
+				9F959F9C1CFD980E00618248 /* AbstractFactory */,
 				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
@@ -154,6 +195,7 @@
 				9F959F591CFD7D2B00618248 /* Singleton */,
 				9F959F671CFD811D00618248 /* Prototype */,
 				9F959F751CFD888400618248 /* FactoryMethod */,
+				9F959F9B1CFD980D00618248 /* AbstractFactory */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,6 +282,29 @@
 			name = Creator;
 			sourceTree = "<group>";
 		};
+		9F959F9C1CFD980E00618248 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9F959FAE1CFD98BC00618248 /* AbstractPie.h */,
+				9F959FAF1CFD98BC00618248 /* AbstractLine.h */,
+				9F959FB01CFD98BC00618248 /* AbstractFactory.h */,
+				9F959FA31CFD98BC00618248 /* OWCPie.h */,
+				9F959FA21CFD98BC00618248 /* OWCPie.m */,
+				9F959FA51CFD98BC00618248 /* OWCLine.h */,
+				9F959FA41CFD98BC00618248 /* OWCLine.m */,
+				9F959FA71CFD98BC00618248 /* OWCFactory.h */,
+				9F959FA61CFD98BC00618248 /* OWCFactory.m */,
+				9F959FA91CFD98BC00618248 /* HTML5Pie.h */,
+				9F959FA81CFD98BC00618248 /* HTML5Pie.m */,
+				9F959FAB1CFD98BC00618248 /* HTML5Line.h */,
+				9F959FAA1CFD98BC00618248 /* HTML5Line.m */,
+				9F959FAD1CFD98BC00618248 /* HTML5Factory.h */,
+				9F959FAC1CFD98BC00618248 /* HTML5Factory.m */,
+				9F959F9D1CFD980E00618248 /* main.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +376,23 @@
 			productReference = 9F959F751CFD888400618248 /* FactoryMethod */;
 			productType = "com.apple.product-type.tool";
 		};
+		9F959F9A1CFD980D00618248 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F959F9F1CFD980E00618248 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				9F959F971CFD980D00618248 /* Sources */,
+				9F959F981CFD980D00618248 /* Frameworks */,
+				9F959F991CFD980D00618248 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 9F959F9B1CFD980D00618248 /* AbstractFactory */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -332,6 +414,9 @@
 					9F959F741CFD888400618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					9F959F9A1CFD980D00618248 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 9F959E921CFD36E300618248 /* Build configuration list for PBXProject "DesginPattern" */;
@@ -351,6 +436,7 @@
 				9F959F581CFD7D2B00618248 /* Singleton */,
 				9F959F661CFD811D00618248 /* Prototype */,
 				9F959F741CFD888400618248 /* FactoryMethod */,
+				9F959F9A1CFD980D00618248 /* AbstractFactory */,
 			);
 		};
 /* End PBXProject section */
@@ -398,6 +484,20 @@
 				9F959F931CFD8BDA00618248 /* SquareShapeFactory.m in Sources */,
 				9F959F901CFD8BC300618248 /* CircleShapeFactory.m in Sources */,
 				9F959F841CFD891D00618248 /* Shape.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F959F971CFD980D00618248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F959FB41CFD98BC00618248 /* HTML5Pie.m in Sources */,
+				9F959FB61CFD98BC00618248 /* HTML5Factory.m in Sources */,
+				9F959FB31CFD98BC00618248 /* OWCFactory.m in Sources */,
+				9F959FB51CFD98BC00618248 /* HTML5Line.m in Sources */,
+				9F959FB21CFD98BC00618248 /* OWCLine.m in Sources */,
+				9F959FB11CFD98BC00618248 /* OWCPie.m in Sources */,
+				9F959F9E1CFD980E00618248 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +641,20 @@
 			};
 			name = Release;
 		};
+		9F959FA01CFD980E00618248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F959FA11CFD980E00618248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +692,7 @@
 				9F959F6D1CFD811D00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F959F791CFD888400618248 /* Build configuration list for PBXNativeTarget "FactoryMethod" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +701,16 @@
 				9F959F7B1CFD888400618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F959F9F1CFD980E00618248 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F959FA01CFD980E00618248 /* Debug */,
+				9F959FA11CFD980E00618248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
