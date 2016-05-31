@@ -16,6 +16,14 @@
 		9F959F621CFD7D3B00618248 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F611CFD7D3B00618248 /* Singleton.m */; };
 		9F959F6A1CFD811D00618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F691CFD811D00618248 /* main.m */; };
 		9F959F701CFD813900618248 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F6F1CFD813900618248 /* Player.m */; };
+		9F959F781CFD888400618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F771CFD888400618248 /* main.m */; };
+		9F959F841CFD891D00618248 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F831CFD891D00618248 /* Shape.m */; };
+		9F959F871CFD8AD300618248 /* CircleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F861CFD8AD300618248 /* CircleShape.m */; };
+		9F959F8A1CFD8AF900618248 /* SquareShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F891CFD8AF900618248 /* SquareShape.m */; };
+		9F959F8D1CFD8BB100618248 /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F8C1CFD8BB100618248 /* ShapeFactory.m */; };
+		9F959F901CFD8BC300618248 /* CircleShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F8F1CFD8BC300618248 /* CircleShapeFactory.m */; };
+		9F959F931CFD8BDA00618248 /* SquareShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F921CFD8BDA00618248 /* SquareShapeFactory.m */; };
+		9F959F961CFD8BF000618248 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F951CFD8BF000618248 /* Client.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +54,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9F959F731CFD888400618248 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +85,22 @@
 		9F959F691CFD811D00618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F959F6E1CFD813900618248 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		9F959F6F1CFD813900618248 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		9F959F751CFD888400618248 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F959F771CFD888400618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F959F821CFD891D00618248 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = Product/Shape.h; sourceTree = "<group>"; };
+		9F959F831CFD891D00618248 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shape.m; path = Product/Shape.m; sourceTree = "<group>"; };
+		9F959F851CFD8AD300618248 /* CircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleShape.h; path = Product/CircleShape.h; sourceTree = "<group>"; };
+		9F959F861CFD8AD300618248 /* CircleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleShape.m; path = Product/CircleShape.m; sourceTree = "<group>"; };
+		9F959F881CFD8AF900618248 /* SquareShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareShape.h; path = Product/SquareShape.h; sourceTree = "<group>"; };
+		9F959F891CFD8AF900618248 /* SquareShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SquareShape.m; path = Product/SquareShape.m; sourceTree = "<group>"; };
+		9F959F8B1CFD8BB100618248 /* ShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapeFactory.h; path = Creator/ShapeFactory.h; sourceTree = "<group>"; };
+		9F959F8C1CFD8BB100618248 /* ShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShapeFactory.m; path = Creator/ShapeFactory.m; sourceTree = "<group>"; };
+		9F959F8E1CFD8BC200618248 /* CircleShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleShapeFactory.h; path = Creator/CircleShapeFactory.h; sourceTree = "<group>"; };
+		9F959F8F1CFD8BC300618248 /* CircleShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleShapeFactory.m; path = Creator/CircleShapeFactory.m; sourceTree = "<group>"; };
+		9F959F911CFD8BDA00618248 /* SquareShapeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareShapeFactory.h; path = Creator/SquareShapeFactory.h; sourceTree = "<group>"; };
+		9F959F921CFD8BDA00618248 /* SquareShapeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SquareShapeFactory.m; path = Creator/SquareShapeFactory.m; sourceTree = "<group>"; };
+		9F959F941CFD8BF000618248 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Client/Client.h; sourceTree = "<group>"; };
+		9F959F951CFD8BF000618248 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Client/Client.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +125,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F959F721CFD888400618248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +141,7 @@
 				9F959F2C1CFD5AF400618248 /* SimpleFactory */,
 				9F959F5A1CFD7D2B00618248 /* Singleton */,
 				9F959F681CFD811D00618248 /* Prototype */,
+				9F959F761CFD888400618248 /* FactoryMethod */,
 				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
@@ -112,6 +153,7 @@
 				9F959F2B1CFD5AF400618248 /* SimpleFactory */,
 				9F959F591CFD7D2B00618248 /* Singleton */,
 				9F959F671CFD811D00618248 /* Prototype */,
+				9F959F751CFD888400618248 /* FactoryMethod */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +192,52 @@
 				9F959F691CFD811D00618248 /* main.m */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		9F959F761CFD888400618248 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				9F959F7C1CFD88A900618248 /* Client */,
+				9F959F7D1CFD88B700618248 /* Product */,
+				9F959F7E1CFD88BF00618248 /* Creator */,
+				9F959F771CFD888400618248 /* main.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		9F959F7C1CFD88A900618248 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				9F959F941CFD8BF000618248 /* Client.h */,
+				9F959F951CFD8BF000618248 /* Client.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		9F959F7D1CFD88B700618248 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				9F959F821CFD891D00618248 /* Shape.h */,
+				9F959F831CFD891D00618248 /* Shape.m */,
+				9F959F851CFD8AD300618248 /* CircleShape.h */,
+				9F959F861CFD8AD300618248 /* CircleShape.m */,
+				9F959F881CFD8AF900618248 /* SquareShape.h */,
+				9F959F891CFD8AF900618248 /* SquareShape.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		9F959F7E1CFD88BF00618248 /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				9F959F8B1CFD8BB100618248 /* ShapeFactory.h */,
+				9F959F8C1CFD8BB100618248 /* ShapeFactory.m */,
+				9F959F8E1CFD8BC200618248 /* CircleShapeFactory.h */,
+				9F959F8F1CFD8BC300618248 /* CircleShapeFactory.m */,
+				9F959F911CFD8BDA00618248 /* SquareShapeFactory.h */,
+				9F959F921CFD8BDA00618248 /* SquareShapeFactory.m */,
+			);
+			name = Creator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +294,23 @@
 			productReference = 9F959F671CFD811D00618248 /* Prototype */;
 			productType = "com.apple.product-type.tool";
 		};
+		9F959F741CFD888400618248 /* FactoryMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F959F791CFD888400618248 /* Build configuration list for PBXNativeTarget "FactoryMethod" */;
+			buildPhases = (
+				9F959F711CFD888400618248 /* Sources */,
+				9F959F721CFD888400618248 /* Frameworks */,
+				9F959F731CFD888400618248 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryMethod;
+			productName = FactoryMethod;
+			productReference = 9F959F751CFD888400618248 /* FactoryMethod */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +327,9 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					9F959F661CFD811D00618248 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9F959F741CFD888400618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -242,6 +350,7 @@
 				9F959F2A1CFD5AF400618248 /* SimpleFactory */,
 				9F959F581CFD7D2B00618248 /* Singleton */,
 				9F959F661CFD811D00618248 /* Prototype */,
+				9F959F741CFD888400618248 /* FactoryMethod */,
 			);
 		};
 /* End PBXProject section */
@@ -274,6 +383,21 @@
 			files = (
 				9F959F701CFD813900618248 /* Player.m in Sources */,
 				9F959F6A1CFD811D00618248 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F959F711CFD888400618248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F959F871CFD8AD300618248 /* CircleShape.m in Sources */,
+				9F959F781CFD888400618248 /* main.m in Sources */,
+				9F959F961CFD8BF000618248 /* Client.m in Sources */,
+				9F959F8D1CFD8BB100618248 /* ShapeFactory.m in Sources */,
+				9F959F8A1CFD8AF900618248 /* SquareShape.m in Sources */,
+				9F959F931CFD8BDA00618248 /* SquareShapeFactory.m in Sources */,
+				9F959F901CFD8BC300618248 /* CircleShapeFactory.m in Sources */,
+				9F959F841CFD891D00618248 /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +527,20 @@
 			};
 			name = Release;
 		};
+		9F959F7A1CFD888400618248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F959F7B1CFD888400618248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,6 +576,14 @@
 			buildConfigurations = (
 				9F959F6C1CFD811D00618248 /* Debug */,
 				9F959F6D1CFD811D00618248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F959F791CFD888400618248 /* Build configuration list for PBXNativeTarget "FactoryMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F959F7A1CFD888400618248 /* Debug */,
+				9F959F7B1CFD888400618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
