@@ -39,7 +39,9 @@
 
 定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类。
 
-### 抽象工厂模式（Abstract Factory）
+### [抽象工厂模式（Abstract Factory）](https://github.com/terwer/DesginPattern/tree/master/AbstractFactory)
+
+![](http://my.csdn.net/uploads/201204/02/1333347971_2990.jpg)
 
 提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。
 
@@ -165,7 +167,7 @@
 
 [iOS设计模式(03):工厂方法](http://www.cocoachina.com/ios/20130516/6219.html)
 
-
+[IOS设计模式浅析之抽象工厂模式(Abstract Factory)](http://www.cnblogs.com/eagle927183/p/3479644.html)
 
 
 
