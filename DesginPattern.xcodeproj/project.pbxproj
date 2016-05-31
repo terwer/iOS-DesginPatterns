@@ -77,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				9F959F2C1CFD5AF400618248 /* SimpleFactory */,
-				9F959EA11CFD399C00618248 /* README.md */,
 				9F959F5A1CFD7D2B00618248 /* Singleton */,
+				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -353,6 +353,7 @@
 				9F959F5F1CFD7D2B00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
