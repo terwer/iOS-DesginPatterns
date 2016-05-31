@@ -25,7 +25,9 @@
 
 保证一个类仅有一个实例，并提供一个访问它的全局访问点。
 
-### 原型模式（Prototype）
+### [原型模式（Prototype）](https://github.com/terwer/DesginPattern/tree/master/Prototype)
+
+![](http://my.csdn.net/uploads/201204/02/1333348002_1920.jpg)
 
 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
 
@@ -154,4 +156,12 @@
 [设计模式学习－简单工厂模式](http://www.cnblogs.com/kdalan/archive/2012/05/30/2524979.html)
 
 [IOS开发之单例设计模式（完整正确版本）](http://www.cnblogs.com/JackieHoo/p/5050010.html)
+
+[IOS设计模式浅析之原型模式(Prototype)](http://www.cnblogs.com/eagle927183/p/3462439.html)
+
+[iOS原型模式](http://www.jianshu.com/p/5de56efccdea)
+
+
+
+
 
