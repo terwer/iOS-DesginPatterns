@@ -57,7 +57,9 @@
 
 在解决了对象的创建问题之后，对象的组成以及对象之间的依赖关系就成了开发人员关注的焦点，因为如何设计对象的结构、继承和依赖关系会影响到后续程序的维护性、代码的健壮性、耦合性等。对象结构的设计很容易体现出设计人员水平的高低，这里有7个具体的结构型模式可供研究，它们分别是：
 
-### 适配器模式（Adapter）
+### [适配器模式（Adapter）](https://github.com/terwer/DesginPattern/tree/master/Adapter)
+
+![](http://my.csdn.net/uploads/201204/02/1333348086_9735.jpg)
 
 将一个类的接口转换成客户希望的另外一个接口。Adapter 模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
@@ -174,6 +176,8 @@
 [iOS设计模式之：建造者模式Builder Pattern,用于改进初始化参数](http://www.cnblogs.com/wengzilin/p/4365855.html)
 
 [IOS设计模式浅析之建造者模式(Builder)](http://www.cnblogs.com/eagle927183/p/3468340.html)
+
+[iOS设计模式-适配器](http://lastdays.cn/2016/02/29/Adapter/)
 
 
 
