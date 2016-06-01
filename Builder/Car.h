@@ -10,7 +10,7 @@
 
 @class CarBuilder;
 
-typedef void (^CarBuliderBlock) (CarBuilder *bulder);
+typedef void (^CarBuliderBlock) (CarBuilder *builder);
 
 @interface Car : NSObject
 
