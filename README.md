@@ -69,7 +69,7 @@
 
 将抽象部分与它的实现部分分离，使它们都可以独立地变化。
 
-### 组合模式（Composite）
+### [组合模式（Composite）](https://github.com/terwer/DesginPattern/tree/master/Composite)
 
 ![](http://my.csdn.net/uploads/201204/02/1333348099_8238.jpg)
 
