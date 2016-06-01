@@ -45,7 +45,7 @@
 
 提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。
 
-### 建造者模式（Builder）
+### [建造者模式（Builder）](https://github.com/terwer/DesginPattern/tree/master/Builder)
 
 ![](http://my.csdn.net/uploads/201204/02/1333347984_5022.jpg)
 
