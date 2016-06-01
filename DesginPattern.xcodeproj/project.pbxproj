@@ -39,6 +39,12 @@
 		9F959FE31CFEC22600618248 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FE21CFEC22600618248 /* Model.m */; };
 		9F959FE71CFECA1400618248 /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FE61CFECA1400618248 /* CardAdapter.m */; };
 		9F959FEA1CFECD7C00618248 /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FE91CFECD7C00618248 /* NewCardModel.m */; };
+		9F959FF21CFED63000618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FF11CFED63000618248 /* main.m */; };
+		9F95A0011CFED67900618248 /* AbstractRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FF71CFED67900618248 /* AbstractRemoteControl.m */; };
+		9F95A0021CFED67900618248 /* AbstractTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FF91CFED67900618248 /* AbstractTV.m */; };
+		9F95A0031CFED67900618248 /* ConcreteRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FFB1CFED67900618248 /* ConcreteRemoteControl.m */; };
+		9F95A0041CFED67900618248 /* TVA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FFD1CFED67900618248 /* TVA.m */; };
+		9F95A0051CFED67900618248 /* TVB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FFF1CFED67900618248 /* TVB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +103,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9F959FD51CFEBF0B00618248 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9F959FED1CFED63000618248 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -177,6 +192,19 @@
 		9F959FE61CFECA1400618248 /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAdapter.m; sourceTree = "<group>"; };
 		9F959FE81CFECD7C00618248 /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModel.h; sourceTree = "<group>"; };
 		9F959FE91CFECD7C00618248 /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModel.m; sourceTree = "<group>"; };
+		9F959FEF1CFED63000618248 /* Bridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bridge; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F959FF11CFED63000618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F959FF61CFED67900618248 /* AbstractRemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractRemoteControl.h; sourceTree = "<group>"; };
+		9F959FF71CFED67900618248 /* AbstractRemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractRemoteControl.m; sourceTree = "<group>"; };
+		9F959FF81CFED67900618248 /* AbstractTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractTV.h; sourceTree = "<group>"; };
+		9F959FF91CFED67900618248 /* AbstractTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractTV.m; sourceTree = "<group>"; };
+		9F959FFA1CFED67900618248 /* ConcreteRemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteRemoteControl.h; sourceTree = "<group>"; };
+		9F959FFB1CFED67900618248 /* ConcreteRemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteRemoteControl.m; sourceTree = "<group>"; };
+		9F959FFC1CFED67900618248 /* TVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVA.h; sourceTree = "<group>"; };
+		9F959FFD1CFED67900618248 /* TVA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVA.m; sourceTree = "<group>"; };
+		9F959FFE1CFED67900618248 /* TVB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVB.h; sourceTree = "<group>"; };
+		9F959FFF1CFED67900618248 /* TVB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVB.m; sourceTree = "<group>"; };
+		9F95A0001CFED67900618248 /* TVProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +257,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F959FEC1CFED63000618248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -243,6 +278,7 @@
 				9F959FC71CFE7A2E00618248 /* Builder */,
 				9F959FD81CFEBF0B00618248 /* Adapter */,
 				9F959EA11CFD399C00618248 /* README.md */,
+				9F959FF01CFED63000618248 /* Bridge */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -257,6 +293,7 @@
 				9F959F9B1CFD980D00618248 /* AbstractFactory */,
 				9F959FC61CFE7A2E00618248 /* Builder */,
 				9F959FD71CFEBF0B00618248 /* Adapter */,
+				9F959FEF1CFED63000618248 /* Bridge */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -395,6 +432,25 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		9F959FF01CFED63000618248 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				9F959FF61CFED67900618248 /* AbstractRemoteControl.h */,
+				9F959FF71CFED67900618248 /* AbstractRemoteControl.m */,
+				9F95A0001CFED67900618248 /* TVProtocol.h */,
+				9F959FF81CFED67900618248 /* AbstractTV.h */,
+				9F959FF91CFED67900618248 /* AbstractTV.m */,
+				9F959FFA1CFED67900618248 /* ConcreteRemoteControl.h */,
+				9F959FFB1CFED67900618248 /* ConcreteRemoteControl.m */,
+				9F959FFC1CFED67900618248 /* TVA.h */,
+				9F959FFD1CFED67900618248 /* TVA.m */,
+				9F959FFE1CFED67900618248 /* TVB.h */,
+				9F959FFF1CFED67900618248 /* TVB.m */,
+				9F959FF11CFED63000618248 /* main.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -517,6 +573,23 @@
 			productReference = 9F959FD71CFEBF0B00618248 /* Adapter */;
 			productType = "com.apple.product-type.tool";
 		};
+		9F959FEE1CFED63000618248 /* Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F959FF31CFED63000618248 /* Build configuration list for PBXNativeTarget "Bridge" */;
+			buildPhases = (
+				9F959FEB1CFED63000618248 /* Sources */,
+				9F959FEC1CFED63000618248 /* Frameworks */,
+				9F959FED1CFED63000618248 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bridge;
+			productName = Bridge;
+			productReference = 9F959FEF1CFED63000618248 /* Bridge */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -547,6 +620,9 @@
 					9F959FD61CFEBF0B00618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					9F959FEE1CFED63000618248 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 9F959E921CFD36E300618248 /* Build configuration list for PBXProject "DesginPattern" */;
@@ -569,6 +645,7 @@
 				9F959F9A1CFD980D00618248 /* AbstractFactory */,
 				9F959FC51CFE7A2E00618248 /* Builder */,
 				9F959FD61CFEBF0B00618248 /* Adapter */,
+				9F959FEE1CFED63000618248 /* Bridge */,
 			);
 		};
 /* End PBXProject section */
@@ -652,6 +729,19 @@
 				9F959FEA1CFECD7C00618248 /* NewCardModel.m in Sources */,
 				9F959FE01CFEC07F00618248 /* BusinessCard.m in Sources */,
 				9F959FE71CFECA1400618248 /* CardAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F959FEB1CFED63000618248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F95A0051CFED67900618248 /* TVB.m in Sources */,
+				9F959FF21CFED63000618248 /* main.m in Sources */,
+				9F95A0011CFED67900618248 /* AbstractRemoteControl.m in Sources */,
+				9F95A0031CFED67900618248 /* ConcreteRemoteControl.m in Sources */,
+				9F95A0021CFED67900618248 /* AbstractTV.m in Sources */,
+				9F95A0041CFED67900618248 /* TVA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +927,20 @@
 			};
 			name = Release;
 		};
+		9F959FF41CFED63000618248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F959FF51CFED63000618248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -907,6 +1011,14 @@
 			buildConfigurations = (
 				9F959FDC1CFEBF0B00618248 /* Debug */,
 				9F959FDD1CFEBF0B00618248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F959FF31CFED63000618248 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F959FF41CFED63000618248 /* Debug */,
+				9F959FF51CFED63000618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

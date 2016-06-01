@@ -63,7 +63,9 @@
 
 将一个类的接口转换成客户希望的另外一个接口。Adapter 模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
-### 桥模模式（Bridge）
+### 桥接模式（Bridge）
+
+![](http://my.csdn.net/uploads/201204/02/1333348092_2737.jpg)
 
 将抽象部分与它的实现部分分离，使它们都可以独立地变化。
 
@@ -178,6 +180,8 @@
 [IOS设计模式浅析之建造者模式(Builder)](http://www.cnblogs.com/eagle927183/p/3468340.html)
 
 [iOS设计模式-适配器](http://lastdays.cn/2016/02/29/Adapter/)
+
+[iOS设计模式——桥接模式](http://my.oschina.net/daguoshi/blog/500403)
 
 
 
