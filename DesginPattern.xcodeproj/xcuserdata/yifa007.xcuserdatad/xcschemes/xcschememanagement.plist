@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>Buildeer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Builder.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>DesginPattern.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -108,6 +118,16 @@
 			<true/>
 		</dict>
 		<key>9F959F9A1CFD980D00618248</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F959FBA1CFE7A0A00618248</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F959FC51CFE7A2E00618248</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -47,6 +47,8 @@
 
 ### 建造者模式（Builder）
 
+![](http://my.csdn.net/uploads/201204/02/1333347984_5022.jpg)
+
 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
 
 ## 结构型模式
@@ -169,6 +171,9 @@
 
 [IOS设计模式浅析之抽象工厂模式(Abstract Factory)](http://www.cnblogs.com/eagle927183/p/3479644.html)
 
+[iOS设计模式之：建造者模式Builder Pattern,用于改进初始化参数](http://www.cnblogs.com/wengzilin/p/4365855.html)
+
+[IOS设计模式浅析之建造者模式(Builder)](http://www.cnblogs.com/eagle927183/p/3468340.html)
 
 
 
