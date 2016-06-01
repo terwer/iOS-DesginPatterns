@@ -71,6 +71,8 @@
 
 ### 组合模式（Composite）
 
+![](http://my.csdn.net/uploads/201204/02/1333348099_8238.jpg)
+
 将对象组合成树形结构以表示‘部分-整体’的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。
 
 ### 装饰模式（Decorator）
@@ -183,6 +185,8 @@
 
 [iOS设计模式——桥接模式](http://my.oschina.net/daguoshi/blog/500403)
 
+[Objective-C 设计模式－组合模式 (Composite)](http://www.cnblogs.com/markhy/archive/2013/06/12/3132355.html)
 
+[iOS设计模式——组合模式](http://my.oschina.net/daguoshi/blog/504704)
 
 
