@@ -34,6 +34,11 @@
 		9F959FC91CFE7A2E00618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FC81CFE7A2E00618248 /* main.m */; };
 		9F959FCF1CFE7BB000618248 /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FCE1CFE7BB000618248 /* CarBuilder.m */; };
 		9F959FD21CFE7BBC00618248 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FD11CFE7BBC00618248 /* Car.m */; };
+		9F959FDA1CFEBF0B00618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FD91CFEBF0B00618248 /* main.m */; };
+		9F959FE01CFEC07F00618248 /* BusinessCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FDF1CFEC07F00618248 /* BusinessCard.m */; };
+		9F959FE31CFEC22600618248 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FE21CFEC22600618248 /* Model.m */; };
+		9F959FE71CFECA1400618248 /* CardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FE61CFECA1400618248 /* CardAdapter.m */; };
+		9F959FEA1CFECD7C00618248 /* NewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959FE91CFECD7C00618248 /* NewCardModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +88,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9F959FC41CFE7A2E00618248 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9F959FD51CFEBF0B00618248 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -152,6 +166,17 @@
 		9F959FCE1CFE7BB000618248 /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
 		9F959FD01CFE7BBC00618248 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		9F959FD11CFE7BBC00618248 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		9F959FD71CFEBF0B00618248 /* Adapter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adapter; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F959FD91CFEBF0B00618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F959FDE1CFEC07F00618248 /* BusinessCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCard.h; sourceTree = "<group>"; };
+		9F959FDF1CFEC07F00618248 /* BusinessCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCard.m; sourceTree = "<group>"; };
+		9F959FE11CFEC22600618248 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		9F959FE21CFEC22600618248 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		9F959FE41CFEC9B300618248 /* CardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapterProtocol.h; sourceTree = "<group>"; };
+		9F959FE51CFECA1400618248 /* CardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardAdapter.h; sourceTree = "<group>"; };
+		9F959FE61CFECA1400618248 /* CardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardAdapter.m; sourceTree = "<group>"; };
+		9F959FE81CFECD7C00618248 /* NewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCardModel.h; sourceTree = "<group>"; };
+		9F959FE91CFECD7C00618248 /* NewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCardModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +222,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F959FD41CFEBF0B00618248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -209,6 +241,7 @@
 				9F959F761CFD888400618248 /* FactoryMethod */,
 				9F959F9C1CFD980E00618248 /* AbstractFactory */,
 				9F959FC71CFE7A2E00618248 /* Builder */,
+				9F959FD81CFEBF0B00618248 /* Adapter */,
 				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
@@ -223,6 +256,7 @@
 				9F959F751CFD888400618248 /* FactoryMethod */,
 				9F959F9B1CFD980D00618248 /* AbstractFactory */,
 				9F959FC61CFE7A2E00618248 /* Builder */,
+				9F959FD71CFEBF0B00618248 /* Adapter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +378,23 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		9F959FD81CFEBF0B00618248 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				9F959FDE1CFEC07F00618248 /* BusinessCard.h */,
+				9F959FDF1CFEC07F00618248 /* BusinessCard.m */,
+				9F959FE41CFEC9B300618248 /* CardAdapterProtocol.h */,
+				9F959FE51CFECA1400618248 /* CardAdapter.h */,
+				9F959FE61CFECA1400618248 /* CardAdapter.m */,
+				9F959FE11CFEC22600618248 /* Model.h */,
+				9F959FE21CFEC22600618248 /* Model.m */,
+				9F959FE81CFECD7C00618248 /* NewCardModel.h */,
+				9F959FE91CFECD7C00618248 /* NewCardModel.m */,
+				9F959FD91CFEBF0B00618248 /* main.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -449,6 +500,23 @@
 			productReference = 9F959FC61CFE7A2E00618248 /* Builder */;
 			productType = "com.apple.product-type.tool";
 		};
+		9F959FD61CFEBF0B00618248 /* Adapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F959FDB1CFEBF0B00618248 /* Build configuration list for PBXNativeTarget "Adapter" */;
+			buildPhases = (
+				9F959FD31CFEBF0B00618248 /* Sources */,
+				9F959FD41CFEBF0B00618248 /* Frameworks */,
+				9F959FD51CFEBF0B00618248 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adapter;
+			productName = Adapter;
+			productReference = 9F959FD71CFEBF0B00618248 /* Adapter */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -476,6 +544,9 @@
 					9F959FC51CFE7A2E00618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					9F959FD61CFEBF0B00618248 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 9F959E921CFD36E300618248 /* Build configuration list for PBXProject "DesginPattern" */;
@@ -497,6 +568,7 @@
 				9F959F741CFD888400618248 /* FactoryMethod */,
 				9F959F9A1CFD980D00618248 /* AbstractFactory */,
 				9F959FC51CFE7A2E00618248 /* Builder */,
+				9F959FD61CFEBF0B00618248 /* Adapter */,
 			);
 		};
 /* End PBXProject section */
@@ -568,6 +640,18 @@
 				9F959FD21CFE7BBC00618248 /* Car.m in Sources */,
 				9F959FCF1CFE7BB000618248 /* CarBuilder.m in Sources */,
 				9F959FC91CFE7A2E00618248 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F959FD31CFEBF0B00618248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F959FE31CFEC22600618248 /* Model.m in Sources */,
+				9F959FDA1CFEBF0B00618248 /* main.m in Sources */,
+				9F959FEA1CFECD7C00618248 /* NewCardModel.m in Sources */,
+				9F959FE01CFEC07F00618248 /* BusinessCard.m in Sources */,
+				9F959FE71CFECA1400618248 /* CardAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +823,20 @@
 			};
 			name = Release;
 		};
+		9F959FDC1CFEBF0B00618248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F959FDD1CFEBF0B00618248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -801,6 +899,14 @@
 			buildConfigurations = (
 				9F959FCB1CFE7A2E00618248 /* Debug */,
 				9F959FCC1CFE7A2E00618248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F959FDB1CFEBF0B00618248 /* Build configuration list for PBXNativeTarget "Adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F959FDC1CFEBF0B00618248 /* Debug */,
+				9F959FDD1CFEBF0B00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>Adapter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>Buildeer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -128,6 +133,11 @@
 			<true/>
 		</dict>
 		<key>9F959FC51CFE7A2E00618248</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F959FD61CFEBF0B00618248</key>
 		<dict>
 			<key>primary</key>
 			<true/>
