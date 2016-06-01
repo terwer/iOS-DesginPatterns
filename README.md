@@ -63,7 +63,7 @@
 
 将一个类的接口转换成客户希望的另外一个接口。Adapter 模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
-### 桥接模式（Bridge）
+### [桥接模式（Bridge）](https://github.com/terwer/DesginPattern/tree/master/Bridge)
 
 ![](http://my.csdn.net/uploads/201204/02/1333348092_2737.jpg)
 
