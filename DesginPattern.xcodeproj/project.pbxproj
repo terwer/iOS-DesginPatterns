@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F83769D1D1A66E6000873FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F83769C1D1A66E6000873FD /* main.m */; };
+		9F8376A31D1A675C000873FD /* AbstractCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A21D1A675C000873FD /* AbstractCellPhone.m */; };
+		9F8376A61D1A67F0000873FD /* NokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A51D1A67F0000873FD /* NokiaPhone.m */; };
+		9F8376A91D1A683E000873FD /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A81D1A683E000873FD /* Decorator.m */; };
+		9F8376AC1D1A6910000873FD /* DecoratorGPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376AB1D1A6910000873FD /* DecoratorGPS.m */; };
+		9F8376AF1D1A6B7B000873FD /* DecoratorBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376AE1D1A6B7B000873FD /* DecoratorBluetooth.m */; };
 		9F959F2E1CFD5AF400618248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F2D1CFD5AF400618248 /* main.m */; };
 		9F959F3A1CFD5B3E00618248 /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F321CFD5B3E00618248 /* SimpleFactory.m */; };
 		9F959F3B1CFD5B3E00618248 /* ICBCBankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F959F341CFD5B3E00618248 /* ICBCBankCard.m */; };
@@ -51,6 +57,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9F8376981D1A66E6000873FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9F959F291CFD5AF400618248 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +150,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F83769A1D1A66E6000873FD /* Decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decorator; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F83769C1D1A66E6000873FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8376A11D1A675C000873FD /* AbstractCellPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCellPhone.h; sourceTree = "<group>"; };
+		9F8376A21D1A675C000873FD /* AbstractCellPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCellPhone.m; sourceTree = "<group>"; };
+		9F8376A41D1A67F0000873FD /* NokiaPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NokiaPhone.h; sourceTree = "<group>"; };
+		9F8376A51D1A67F0000873FD /* NokiaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NokiaPhone.m; sourceTree = "<group>"; };
+		9F8376A71D1A683E000873FD /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		9F8376A81D1A683E000873FD /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		9F8376AA1D1A6910000873FD /* DecoratorGPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorGPS.h; sourceTree = "<group>"; };
+		9F8376AB1D1A6910000873FD /* DecoratorGPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorGPS.m; sourceTree = "<group>"; };
+		9F8376AD1D1A6B7B000873FD /* DecoratorBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorBluetooth.h; sourceTree = "<group>"; };
+		9F8376AE1D1A6B7B000873FD /* DecoratorBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorBluetooth.m; sourceTree = "<group>"; };
 		9F959EA11CFD399C00618248 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9F959F2B1CFD5AF400618248 /* SimpleFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F959F2D1CFD5AF400618248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -227,6 +254,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9F8376971D1A66E6000873FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F959F281CFD5AF400618248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +327,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F83769B1D1A66E6000873FD /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				9F8376A11D1A675C000873FD /* AbstractCellPhone.h */,
+				9F8376A21D1A675C000873FD /* AbstractCellPhone.m */,
+				9F8376A41D1A67F0000873FD /* NokiaPhone.h */,
+				9F8376A51D1A67F0000873FD /* NokiaPhone.m */,
+				9F8376A71D1A683E000873FD /* Decorator.h */,
+				9F8376A81D1A683E000873FD /* Decorator.m */,
+				9F8376AA1D1A6910000873FD /* DecoratorGPS.h */,
+				9F8376AB1D1A6910000873FD /* DecoratorGPS.m */,
+				9F8376AD1D1A6B7B000873FD /* DecoratorBluetooth.h */,
+				9F8376AE1D1A6B7B000873FD /* DecoratorBluetooth.m */,
+				9F83769C1D1A66E6000873FD /* main.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 		9F959E8E1CFD36E300618248 = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +357,7 @@
 				9F959FD81CFEBF0B00618248 /* Adapter */,
 				9F959FF01CFED63000618248 /* Bridge */,
 				9F95A00B1CFEDF6B00618248 /* Composite */,
+				9F83769B1D1A66E6000873FD /* Decorator */,
 				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
@@ -322,6 +375,7 @@
 				9F959FD71CFEBF0B00618248 /* Adapter */,
 				9F959FEF1CFED63000618248 /* Bridge */,
 				9F95A00A1CFEDF6B00618248 /* Composite */,
+				9F83769A1D1A66E6000873FD /* Decorator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -495,6 +549,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9F8376991D1A66E6000873FD /* Decorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8376A01D1A66E6000873FD /* Build configuration list for PBXNativeTarget "Decorator" */;
+			buildPhases = (
+				9F8376961D1A66E6000873FD /* Sources */,
+				9F8376971D1A66E6000873FD /* Frameworks */,
+				9F8376981D1A66E6000873FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decorator;
+			productName = Decorator;
+			productReference = 9F83769A1D1A66E6000873FD /* Decorator */;
+			productType = "com.apple.product-type.tool";
+		};
 		9F959F2A1CFD5AF400618248 /* SimpleFactory */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F959F2F1CFD5AF400618248 /* Build configuration list for PBXNativeTarget "SimpleFactory" */;
@@ -657,6 +728,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Terwer Green";
 				TargetAttributes = {
+					9F8376991D1A66E6000873FD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					9F959F2A1CFD5AF400618248 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -708,11 +782,25 @@
 				9F959FD61CFEBF0B00618248 /* Adapter */,
 				9F959FEE1CFED63000618248 /* Bridge */,
 				9F95A0091CFEDF6B00618248 /* Composite */,
+				9F8376991D1A66E6000873FD /* Decorator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9F8376961D1A66E6000873FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8376A31D1A675C000873FD /* AbstractCellPhone.m in Sources */,
+				9F8376A91D1A683E000873FD /* Decorator.m in Sources */,
+				9F8376AF1D1A6B7B000873FD /* DecoratorBluetooth.m in Sources */,
+				9F8376A61D1A67F0000873FD /* NokiaPhone.m in Sources */,
+				9F83769D1D1A66E6000873FD /* main.m in Sources */,
+				9F8376AC1D1A6910000873FD /* DecoratorGPS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F959F271CFD5AF400618248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -820,6 +908,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9F83769E1D1A66E6000873FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F83769F1D1A66E6000873FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9F959E9C1CFD36E300618248 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1030,6 +1132,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9F8376A01D1A66E6000873FD /* Build configuration list for PBXNativeTarget "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F83769E1D1A66E6000873FD /* Debug */,
+				9F83769F1D1A66E6000873FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9F959E921CFD36E300618248 /* Build configuration list for PBXProject "DesginPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1091,6 +1201,7 @@
 				9F959FCC1CFE7A2E00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F959FDB1CFEBF0B00618248 /* Build configuration list for PBXNativeTarget "Adapter" */ = {
 			isa = XCConfigurationList;
@@ -1099,6 +1210,7 @@
 				9F959FDD1CFEBF0B00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F959FF31CFED63000618248 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
 			isa = XCConfigurationList;
@@ -1107,6 +1219,7 @@
 				9F959FF51CFED63000618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F95A00E1CFEDF6B00618248 /* Build configuration list for PBXNativeTarget "Composite" */ = {
 			isa = XCConfigurationList;
@@ -1115,6 +1228,7 @@
 				9F95A0101CFEDF6B00618248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
