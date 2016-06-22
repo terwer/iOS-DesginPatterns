@@ -75,7 +75,9 @@
 
 将对象组合成树形结构以表示‘部分-整体’的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。
 
-### 装饰模式（Decorator）
+### [装饰模式（Decorator）](https://github.com/terwer/DesginPattern/tree/master/Decorator)
+
+![](http://my.csdn.net/uploads/201204/02/1333348106_5577.jpg)
 
 动态地给一个对象添加一些额外的职责，就增加功能来说，装饰模式比生成子类更为灵活。
 
@@ -189,4 +191,5 @@
 
 [iOS设计模式——组合模式](http://my.oschina.net/daguoshi/blog/504704)
 
+[iOS设计模式学习---装饰模式](http://morisunshine.com/ios/ios_decorator/)
 
