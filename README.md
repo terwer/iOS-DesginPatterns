@@ -1,8 +1,19 @@
-#iOS设计模式
+---
+layout:     post
+title:      "iOS设计模式"
+subtitle:   "iOS Desgin-Pattern"
+date:       2016-08-01 10:12:00
+author:     "Terwer Green"
+header-img: "img/2016-08-01-ios-desgin-pattern.jpg"
+tags:
+- Objective-C
+- iOS
+- Desgin-Pattern
+---
 
 # 常用的 23 种设计模式
 
-不管是 Objective-C ，Swift 还是 Java 或 .NET 中的 C# 语言 、VB.NET、C++ 语言，面向对象语言在设计模式的层面上都是相通的，只不过在设计模式的具体实现上语法稍有差异罢了。设计模式总概况：
+设计模式总概况：
 
 ![](http://78rdf9.com1.z0.glb.clouddn.com/2016-05-31_152500.png)
 
@@ -15,7 +26,7 @@
 
 [**简单工厂模式（Simple Factory）**](https://github.com/terwer/DesginPattern/tree/master/SimpleFactory)
 
-![](http://images.cnblogs.com/cnblogs_com/kdalan/UML.png)
+![](http://www.terwer.com/img/simpleFactory.png)
 
 简单工厂模式是属于创建型模式，但不属于23种GOF设计模式之一。简单工厂模式是由一个工厂对象决定创建出哪一种产品类的实例。简单工厂模式是工厂模式家族中最简单实用的模式，可以理解为是不同工厂模式的一个特殊实现。
 
@@ -81,7 +92,7 @@
 
 动态地给一个对象添加一些额外的职责，就增加功能来说，装饰模式比生成子类更为灵活。
 
-### 外观模式（Facade）
+### [外观模式（Facade）](https://github.com/terwer/DesginPattern/tree/master/Facade)
 
 为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
 
@@ -192,4 +203,10 @@
 [iOS设计模式——组合模式](http://my.oschina.net/daguoshi/blog/504704)
 
 [iOS设计模式学习---装饰模式](http://morisunshine.com/ios/ios_decorator/)
+
+[IOS设计模式浅析之外观模式(Facade)](http://www.cnblogs.com/eagle927183/p/3511876.html)
+
+
+
+
 

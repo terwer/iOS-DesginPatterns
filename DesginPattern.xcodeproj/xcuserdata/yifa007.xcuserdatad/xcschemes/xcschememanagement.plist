@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Facade.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>FactoryMethod.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -77,6 +82,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9F2F02DD1D5329830050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9F8376991D1A66E6000873FD</key>
 		<dict>
 			<key>primary</key>

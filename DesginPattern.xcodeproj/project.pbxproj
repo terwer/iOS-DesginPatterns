@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2F02F01D532E960050DE8F /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02E51D532E960050DE8F /* Hotel.m */; };
+		9F2F02F11D532E960050DE8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02E61D532E960050DE8F /* main.m */; };
+		9F2F02F21D532E960050DE8F /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02E71D532E960050DE8F /* Facade.m */; };
+		9F2F02F31D532E960050DE8F /* Attractions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02E91D532E960050DE8F /* Attractions.m */; };
+		9F2F02F41D532E960050DE8F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02EA1D532E960050DE8F /* Restaurant.m */; };
+		9F2F02F51D532E960050DE8F /* Transportation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02EE1D532E960050DE8F /* Transportation.m */; };
 		9F83769D1D1A66E6000873FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F83769C1D1A66E6000873FD /* main.m */; };
 		9F8376A31D1A675C000873FD /* AbstractCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A21D1A675C000873FD /* AbstractCellPhone.m */; };
 		9F8376A61D1A67F0000873FD /* NokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A51D1A67F0000873FD /* NokiaPhone.m */; };
@@ -57,6 +63,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9F2F02DC1D5329830050DE8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9F8376981D1A66E6000873FD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +165,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F2F02DE1D5329830050DE8F /* Facade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Facade; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2F02E51D532E960050DE8F /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		9F2F02E61D532E960050DE8F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F2F02E71D532E960050DE8F /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		9F2F02E81D532E960050DE8F /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		9F2F02E91D532E960050DE8F /* Attractions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attractions.m; sourceTree = "<group>"; };
+		9F2F02EA1D532E960050DE8F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		9F2F02EB1D532E960050DE8F /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		9F2F02EC1D532E960050DE8F /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		9F2F02ED1D532E960050DE8F /* Attractions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attractions.h; sourceTree = "<group>"; };
+		9F2F02EE1D532E960050DE8F /* Transportation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transportation.m; sourceTree = "<group>"; };
+		9F2F02EF1D532E960050DE8F /* Transportation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transportation.h; sourceTree = "<group>"; };
 		9F83769A1D1A66E6000873FD /* Decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decorator; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F83769C1D1A66E6000873FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F8376A11D1A675C000873FD /* AbstractCellPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCellPhone.h; sourceTree = "<group>"; };
@@ -254,6 +281,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9F2F02DB1D5329830050DE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F8376971D1A66E6000873FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +361,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2F02DF1D5329830050DE8F /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F02E81D532E960050DE8F /* Facade.h */,
+				9F2F02E71D532E960050DE8F /* Facade.m */,
+				9F2F02EF1D532E960050DE8F /* Transportation.h */,
+				9F2F02EE1D532E960050DE8F /* Transportation.m */,
+				9F2F02EC1D532E960050DE8F /* Hotel.h */,
+				9F2F02E51D532E960050DE8F /* Hotel.m */,
+				9F2F02EB1D532E960050DE8F /* Restaurant.h */,
+				9F2F02EA1D532E960050DE8F /* Restaurant.m */,
+				9F2F02ED1D532E960050DE8F /* Attractions.h */,
+				9F2F02E91D532E960050DE8F /* Attractions.m */,
+				9F2F02E61D532E960050DE8F /* main.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 		9F83769B1D1A66E6000873FD /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +410,7 @@
 				9F959FF01CFED63000618248 /* Bridge */,
 				9F95A00B1CFEDF6B00618248 /* Composite */,
 				9F83769B1D1A66E6000873FD /* Decorator */,
+				9F2F02DF1D5329830050DE8F /* Facade */,
 				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
@@ -376,6 +429,7 @@
 				9F959FEF1CFED63000618248 /* Bridge */,
 				9F95A00A1CFEDF6B00618248 /* Composite */,
 				9F83769A1D1A66E6000873FD /* Decorator */,
+				9F2F02DE1D5329830050DE8F /* Facade */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -549,6 +603,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9F2F02DD1D5329830050DE8F /* Facade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2F02E41D5329830050DE8F /* Build configuration list for PBXNativeTarget "Facade" */;
+			buildPhases = (
+				9F2F02DA1D5329830050DE8F /* Sources */,
+				9F2F02DB1D5329830050DE8F /* Frameworks */,
+				9F2F02DC1D5329830050DE8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facade;
+			productName = Facade;
+			productReference = 9F2F02DE1D5329830050DE8F /* Facade */;
+			productType = "com.apple.product-type.tool";
+		};
 		9F8376991D1A66E6000873FD /* Decorator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8376A01D1A66E6000873FD /* Build configuration list for PBXNativeTarget "Decorator" */;
@@ -728,6 +799,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Terwer Green";
 				TargetAttributes = {
+					9F2F02DD1D5329830050DE8F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					9F8376991D1A66E6000873FD = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -783,11 +857,25 @@
 				9F959FEE1CFED63000618248 /* Bridge */,
 				9F95A0091CFEDF6B00618248 /* Composite */,
 				9F8376991D1A66E6000873FD /* Decorator */,
+				9F2F02DD1D5329830050DE8F /* Facade */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9F2F02DA1D5329830050DE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2F02F31D532E960050DE8F /* Attractions.m in Sources */,
+				9F2F02F41D532E960050DE8F /* Restaurant.m in Sources */,
+				9F2F02F11D532E960050DE8F /* main.m in Sources */,
+				9F2F02F51D532E960050DE8F /* Transportation.m in Sources */,
+				9F2F02F21D532E960050DE8F /* Facade.m in Sources */,
+				9F2F02F01D532E960050DE8F /* Hotel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F8376961D1A66E6000873FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -908,6 +996,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9F2F02E21D5329830050DE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F2F02E31D5329830050DE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9F83769E1D1A66E6000873FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1132,6 +1234,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9F2F02E41D5329830050DE8F /* Build configuration list for PBXNativeTarget "Facade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2F02E21D5329830050DE8F /* Debug */,
+				9F2F02E31D5329830050DE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9F8376A01D1A66E6000873FD /* Build configuration list for PBXNativeTarget "Decorator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1139,6 +1249,7 @@
 				9F83769F1D1A66E6000873FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F959E921CFD36E300618248 /* Build configuration list for PBXProject "DesginPattern" */ = {
 			isa = XCConfigurationList;
