@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>Proxy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>SimpleFactory.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -93,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>9F2F02F91D543A680050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F2F030E1D54731F0050DE8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -94,13 +94,19 @@ tags:
 
 ### [外观模式（Facade）](https://github.com/terwer/DesginPattern/tree/master/Facade)
 
+![](http://img.my.csdn.net/uploads/201204/02/1333348111_7885.jpg)
+
 为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
 
 ### [享元模式（Flyweight）](https://github.com/terwer/DesginPattern/tree/master/Flyweight)
 
+![](http://img.my.csdn.net/uploads/201204/02/1333348170_8879.jpg)
+
 运用共享技术有效地支持大量细粒度的对象。
 
-### 代理模式（Proxy）
+### [代理模式（Proxy)](https://github.com/terwer/DesginPattern/tree/master/Proxy)
+
+![](http://img.my.csdn.net/uploads/201204/02/1333348116_9640.jpg)
 
 为其他对象提供一种代理以控制对这个对象的访问。
 
@@ -207,6 +213,8 @@ tags:
 [IOS设计模式浅析之外观模式(Facade)](http://www.cnblogs.com/eagle927183/p/3511876.html)
 
 [iOS设计模式——享元模式](http://www.mamicode.com/info-detail-1037340.html)
+
+[iOS常用设计模式之委托模式](http://www.beyondabel.com/blog/2013/10/31/ios-proxymode/)
 
 
 
