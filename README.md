@@ -96,7 +96,7 @@ tags:
 
 为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
 
-### 享元模式（Flyweight）
+### [享元模式（Flyweight）](https://github.com/terwer/DesginPattern/tree/master/Flyweight)
 
 运用共享技术有效地支持大量细粒度的对象。
 
@@ -205,6 +205,8 @@ tags:
 [iOS设计模式学习---装饰模式](http://morisunshine.com/ios/ios_decorator/)
 
 [IOS设计模式浅析之外观模式(Facade)](http://www.cnblogs.com/eagle927183/p/3511876.html)
+
+[iOS设计模式——享元模式](http://www.mamicode.com/info-detail-1037340.html)
 
 
 

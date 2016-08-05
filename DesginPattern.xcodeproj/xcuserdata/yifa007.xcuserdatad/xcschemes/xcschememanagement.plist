@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Flyweight.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>Prototype.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -83,6 +88,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>9F2F02DD1D5329830050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F2F02F91D543A680050DE8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

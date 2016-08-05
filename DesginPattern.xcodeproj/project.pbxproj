@@ -13,6 +13,10 @@
 		9F2F02F31D532E960050DE8F /* Attractions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02E91D532E960050DE8F /* Attractions.m */; };
 		9F2F02F41D532E960050DE8F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02EA1D532E960050DE8F /* Restaurant.m */; };
 		9F2F02F51D532E960050DE8F /* Transportation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02EE1D532E960050DE8F /* Transportation.m */; };
+		9F2F02FD1D543A680050DE8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F02FC1D543A680050DE8F /* main.m */; };
+		9F2F03081D5463890050DE8F /* ConcreteWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F03021D5463890050DE8F /* ConcreteWebSite.m */; };
+		9F2F03091D5463890050DE8F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F03041D5463890050DE8F /* User.m */; };
+		9F2F030A1D5463890050DE8F /* WebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F03061D5463890050DE8F /* WebSiteFactory.m */; };
 		9F83769D1D1A66E6000873FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F83769C1D1A66E6000873FD /* main.m */; };
 		9F8376A31D1A675C000873FD /* AbstractCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A21D1A675C000873FD /* AbstractCellPhone.m */; };
 		9F8376A61D1A67F0000873FD /* NokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8376A51D1A67F0000873FD /* NokiaPhone.m */; };
@@ -64,6 +68,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9F2F02DC1D5329830050DE8F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9F2F02F81D543A680050DE8F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -177,6 +190,15 @@
 		9F2F02ED1D532E960050DE8F /* Attractions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attractions.h; sourceTree = "<group>"; };
 		9F2F02EE1D532E960050DE8F /* Transportation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transportation.m; sourceTree = "<group>"; };
 		9F2F02EF1D532E960050DE8F /* Transportation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transportation.h; sourceTree = "<group>"; };
+		9F2F02FA1D543A680050DE8F /* Flyweight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flyweight; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2F02FC1D543A680050DE8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F2F03011D5463890050DE8F /* ConcreteWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteWebSite.h; sourceTree = "<group>"; };
+		9F2F03021D5463890050DE8F /* ConcreteWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteWebSite.m; sourceTree = "<group>"; };
+		9F2F03031D5463890050DE8F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9F2F03041D5463890050DE8F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9F2F03051D5463890050DE8F /* WebSiteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSiteFactory.h; sourceTree = "<group>"; };
+		9F2F03061D5463890050DE8F /* WebSiteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSiteFactory.m; sourceTree = "<group>"; };
+		9F2F03071D5463890050DE8F /* WebSiteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSiteProtocol.h; sourceTree = "<group>"; };
 		9F83769A1D1A66E6000873FD /* Decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decorator; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F83769C1D1A66E6000873FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F8376A11D1A675C000873FD /* AbstractCellPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCellPhone.h; sourceTree = "<group>"; };
@@ -288,6 +310,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F2F02F71D543A680050DE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F8376971D1A66E6000873FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,6 +408,21 @@
 			path = Facade;
 			sourceTree = "<group>";
 		};
+		9F2F02FB1D543A680050DE8F /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F03071D5463890050DE8F /* WebSiteProtocol.h */,
+				9F2F03051D5463890050DE8F /* WebSiteFactory.h */,
+				9F2F03061D5463890050DE8F /* WebSiteFactory.m */,
+				9F2F03011D5463890050DE8F /* ConcreteWebSite.h */,
+				9F2F03021D5463890050DE8F /* ConcreteWebSite.m */,
+				9F2F03031D5463890050DE8F /* User.h */,
+				9F2F03041D5463890050DE8F /* User.m */,
+				9F2F02FC1D543A680050DE8F /* main.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
 		9F83769B1D1A66E6000873FD /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +455,7 @@
 				9F95A00B1CFEDF6B00618248 /* Composite */,
 				9F83769B1D1A66E6000873FD /* Decorator */,
 				9F2F02DF1D5329830050DE8F /* Facade */,
+				9F2F02FB1D543A680050DE8F /* Flyweight */,
 				9F959EA11CFD399C00618248 /* README.md */,
 				9F959E981CFD36E300618248 /* Products */,
 			);
@@ -430,6 +475,7 @@
 				9F95A00A1CFEDF6B00618248 /* Composite */,
 				9F83769A1D1A66E6000873FD /* Decorator */,
 				9F2F02DE1D5329830050DE8F /* Facade */,
+				9F2F02FA1D543A680050DE8F /* Flyweight */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -620,6 +666,23 @@
 			productReference = 9F2F02DE1D5329830050DE8F /* Facade */;
 			productType = "com.apple.product-type.tool";
 		};
+		9F2F02F91D543A680050DE8F /* Flyweight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2F02FE1D543A680050DE8F /* Build configuration list for PBXNativeTarget "Flyweight" */;
+			buildPhases = (
+				9F2F02F61D543A680050DE8F /* Sources */,
+				9F2F02F71D543A680050DE8F /* Frameworks */,
+				9F2F02F81D543A680050DE8F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flyweight;
+			productName = Flyweight;
+			productReference = 9F2F02FA1D543A680050DE8F /* Flyweight */;
+			productType = "com.apple.product-type.tool";
+		};
 		9F8376991D1A66E6000873FD /* Decorator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8376A01D1A66E6000873FD /* Build configuration list for PBXNativeTarget "Decorator" */;
@@ -802,6 +865,9 @@
 					9F2F02DD1D5329830050DE8F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					9F2F02F91D543A680050DE8F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					9F8376991D1A66E6000873FD = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -858,6 +924,7 @@
 				9F95A0091CFEDF6B00618248 /* Composite */,
 				9F8376991D1A66E6000873FD /* Decorator */,
 				9F2F02DD1D5329830050DE8F /* Facade */,
+				9F2F02F91D543A680050DE8F /* Flyweight */,
 			);
 		};
 /* End PBXProject section */
@@ -873,6 +940,17 @@
 				9F2F02F51D532E960050DE8F /* Transportation.m in Sources */,
 				9F2F02F21D532E960050DE8F /* Facade.m in Sources */,
 				9F2F02F01D532E960050DE8F /* Hotel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2F02F61D543A680050DE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2F03081D5463890050DE8F /* ConcreteWebSite.m in Sources */,
+				9F2F02FD1D543A680050DE8F /* main.m in Sources */,
+				9F2F030A1D5463890050DE8F /* WebSiteFactory.m in Sources */,
+				9F2F03091D5463890050DE8F /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,6 +1082,20 @@
 			name = Debug;
 		};
 		9F2F02E31D5329830050DE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F2F02FF1D543A680050DE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F2F03001D543A680050DE8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1239,6 +1331,14 @@
 			buildConfigurations = (
 				9F2F02E21D5329830050DE8F /* Debug */,
 				9F2F02E31D5329830050DE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F2F02FE1D543A680050DE8F /* Build configuration list for PBXNativeTarget "Flyweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2F02FF1D543A680050DE8F /* Debug */,
+				9F2F03001D543A680050DE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
