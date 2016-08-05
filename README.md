@@ -122,7 +122,9 @@ tags:
 
 使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这个对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止。
 
-### 命令模式（Command）
+### [命令模式（Command）](https://github.com/terwer/DesginPattern/tree/master/Command)
+
+![](http://img.my.csdn.net/uploads/201204/02/1333348147_7873.jpg)
 
 将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可撤销的操作。
 
@@ -178,8 +180,6 @@ tags:
 
 >迪米特法则（LoD），如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用。如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用。
 
-
-
 # 参考
 
 [Cocoa如何应用设计模式](http://www.cnblogs.com/pengyingh/articles/2346299.html)
@@ -221,6 +221,8 @@ tags:
 [iOS常用设计模式之委托模式](http://www.beyondabel.com/blog/2013/10/31/ios-proxymode/)
 
 [iOS应用设计模式开发中职责链(责任链)模式的实现解析](http://www.zhougaga.com/ios/36431.html)
+
+[iOS设计模式 - 命令模式](https://yq.aliyun.com/articles/37261)
 
 
 

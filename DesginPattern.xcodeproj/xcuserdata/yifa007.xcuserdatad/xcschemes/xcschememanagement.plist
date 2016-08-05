@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>Command.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>Composite.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,26 @@
 			<true/>
 		</dict>
 		<key>9F2F03231D547F910050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F2F033D1D5487610050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F2F03481D548ADF0050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F2F03601D548AE00050DE8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F2F036B1D548AE00050DE8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
