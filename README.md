@@ -116,7 +116,9 @@ tags:
 
 在对象的结构和对象的创建问题都解决了之后，就剩下对象的行为问题了，如果对象的行为设计的好，那么对象的行为就会更清晰，它们之间的协作效率就会提高，这里有11个具体的行为型模式可供研究，它们分别是：
 
-### 职责链模式（Chain of Responsibility）
+### [职责链模式（Chain of Responsibility）](https://github.com/terwer/DesginPattern/tree/master/Chain)
+
+![](http://img.my.csdn.net/uploads/201204/02/1333348141_1360.jpg)
 
 使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这个对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止。
 
@@ -182,6 +184,8 @@ tags:
 
 [Cocoa如何应用设计模式](http://www.cnblogs.com/pengyingh/articles/2346299.html)
 
+[iOS开发框架中的设计模式](http://diytz.me/design-partens-in-iOS/)
+
 [设计模式总结](http://www.cnblogs.com/chenssy/p/3357683.html)
 
 [设计模式学习－简单工厂模式](http://www.cnblogs.com/kdalan/archive/2012/05/30/2524979.html)
@@ -216,7 +220,7 @@ tags:
 
 [iOS常用设计模式之委托模式](http://www.beyondabel.com/blog/2013/10/31/ios-proxymode/)
 
-
+[iOS应用设计模式开发中职责链(责任链)模式的实现解析](http://www.zhougaga.com/ios/36431.html)
 
 
 
